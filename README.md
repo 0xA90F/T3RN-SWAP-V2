@@ -1,4 +1,4 @@
-# T3RN Bridge Bot
+# T3RN Swap Bot
 ![image](https://github.com/user-attachments/assets/31d8b73f-56c1-4161-b3e8-01f4b9bae6d8)
 ![image](https://github.com/user-attachments/assets/c26d0c64-bd8d-477e-9389-32036e5a8c7f) 
 
@@ -230,7 +230,7 @@ New users whose IPs are not in the whitelist automatically receive a 1-hour tria
 
 ## Credits
 
-- **Developer**: Yoake ([Telegram: @DYMin](https://t.me/kuro12345))
+- **Developer**: DYMin ([Telegram: @DYMin](https://t.me/kuro12345))
 - **Framework**: T3RN Bridge Framework
 - **Libraries**: 
   - [Web3.py](https://github.com/ethereum/web3.py)
