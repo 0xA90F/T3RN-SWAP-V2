@@ -50,7 +50,7 @@
     }
   ],
   "settings": {
-    "bridge_amount": 0.1,
+    "bridge_amount": 1.6,
     "explorer_urls": {
       "Arbitrum Sepolia": "https://sepolia.arbiscan.io/tx/",
       "OP Sepolia": "https://sepolia-optimism.etherscan.io/tx/",
