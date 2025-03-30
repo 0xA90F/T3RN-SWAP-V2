@@ -122,7 +122,7 @@ python main.py
     }
   ],
   "settings": {
-    "bridge_amount": 0.1,
+    "bridge_amount": 1.6,
     "explorer_urls": {
       "Arbitrum Sepolia": "https://sepolia.arbiscan.io/tx/",
       "OP Sepolia": "https://sepolia-optimism.etherscan.io/tx/",
@@ -165,7 +165,7 @@ The `data_bridge` section in your config.json contains the transaction data need
    - Visit the T3RN bridge website (https://bridge.t2rn.io/ or https://unlock3d.t3rn.io/)
    - Open your browser's developer tools (F12 or right-click > Inspect)
    - Go to the Network tab
-   - Set the amount you want to bridge (e.g., 0.1 ETH)
+   - Set the amount you want to bridge (e.g., 1.6 ETH)
    - Initiate a bridge transaction (but don't confirm it in your wallet)
    - Look for web3 API calls in the Network tab (filter by "eth" or "RPC")
    - Examine the request payload - you'll find the transaction data in the `data` field
@@ -187,7 +187,7 @@ Each time you change the `bridge_amount` in your config.json, you must:
 2. Update the corresponding entries in the `data_bridge` section
 3. Save the config.json file
 
-Example of bridge data for a 0.1 ETH transaction:
+Example of bridge data for a 1.6 ETH transaction:
 ```
 "OP - Arbitrum": "0x56591d59617262740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002342Zh73f3452300000000000000000000000000000000000000000000000001631652d53d850000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016345785d8a0000"
 ```
@@ -204,7 +204,7 @@ For a different amount, the data would be different. Always ensure your bridge d
 
 The bot includes an IP-based access control system, which uses a whitelist stored on GitHub:
 
-- **Whitelist Location**: https://raw.githubusercontent.com/YoaTzy/ip-whitelist/refs/heads/main/allow
+- **Whitelist Location**: [https://raw.githubusercontent.com/0xA90F/ip-whitelist/refs/heads/main/allow]
 - **Format**: Each line should contain an IP address and expiry date in DD-MM-YYYY format
 - **Example**: `159.89.177.95 25-03-2099`
 
@@ -230,7 +230,7 @@ New users whose IPs are not in the whitelist automatically receive a 1-hour tria
 
 ## Credits
 
-- **Developer**: Yoake ([Telegram: @yoakeid](https://t.me/yoakeid))
+- **Developer**: Yoake ([Telegram: @DYMin](https://t.me/kuro12345))
 - **Framework**: T3RN Bridge Framework
 - **Libraries**: 
   - [Web3.py](https://github.com/ethereum/web3.py)
@@ -244,4 +244,4 @@ This project is proprietary software. All rights reserved.
 
 ---
 
-For support, feature requests, or to get whitelisted access, contact the developer on Telegram: [@yoakeid](https://t.me/yoakeid)
+For support, feature requests, or to get whitelisted access, contact the developer on Telegram: [@DYMin](https://t.me/kuro12345)
