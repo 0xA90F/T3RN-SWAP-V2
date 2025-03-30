@@ -29,7 +29,7 @@ A powerful, user-friendly bot for automating transactions across T3RN bridge net
 
 ```bash
 # Clone the repository
-git clone https://github.com/YoaTzy/T3RN-SWAP-V2.git
+git clone https://github.com/0xA90F/T3RN-SWAP-V2.git
 cd T3RN-SWAP-V2
 
 # Create virtual environment
@@ -49,7 +49,7 @@ python3 main.py
 
 ```powershell
 # Clone the repository
-git clone https://github.com/YoaTzy/T3RN-SWAP-V2.git
+git clone https://github.com/0xA90F/T3RN-SWAP-V2.git
 cd T3RN-SWAP-V2
 
 # Create virtual environment
