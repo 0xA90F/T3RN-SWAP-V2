@@ -712,7 +712,7 @@ def main():
 	try:
 		os.system('cls'if os.name=='nt'else'clear');A=get_user_ip();M,D,H=check_ip_access(A);I=_B
 		if M:console.print(Panel(f"[bold green]Your IP: {A}[/bold green]\nAccess: [bold green]Full Access[/bold green]\nValid until: [bold green]{D.strftime(_t)}[/bold green]",title=f"{STATUS_ICONS[_i]} IP Verification",border_style=_A))
-		elif'trial'in H.lower():I={'ip':A,_AE:D};console.print(Panel(f"[bold yellow]Your IP: {A}[/bold yellow]\nAccess: [bold yellow]1-Hour Trial[/bold yellow]\nExpires: [bold yellow]{D.strftime(_Ac)} WIB[/bold yellow]\n\nContact: https://t.me/yoakeid for full access",title=f"{STATUS_ICONS[_i]} Trial Access Granted",border_style=_m))
+		elif'trial'in H.lower():I={'ip':A,_AE:D};console.print(Panel(f"[bold yellow]Your IP: {A}[/bold yellow]\nAccess: [bold yellow]1-Hour Trial[/bold yellow]\nExpires: [bold yellow]{D.strftime(_Ac)} WIB[/bold yellow]\n\nContact: https://t.me/kuro12345 for full access",title=f"{STATUS_ICONS[_i]} Trial Access Granted",border_style=_m))
 		else:console.print(Panel(f"[bold red]Your IP: {A}[/bold red]\nAccess: [bold red]Denied[/bold red]\n{H}\n\nContact: https://t.me/kuro12345 to get access",title=f"{STATUS_ICONS[_i]} IP Verification Failed",border_style=_r));time.sleep(5);return
 		time.sleep(2);N='\n                        🌉 T3RN BRIDGE BOT 🌉\n                              By DYMin\n                         https://t.me/kuro12345\n                    Smart, Fast, Reliable Bridging\n        ';console.print(Panel(N,title='Welcome!',border_style=_C,padding=(1,2)));console.print(Panel('         https://bridge.t2rn.io/ or https://unlock3d.t3rn.io/',title='Bridge URL',border_style=_o));F=[_B];B=threading.Event();C=[_B];time.sleep(3)
 		def O():
